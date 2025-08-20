@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    a=4;
+    b=7;
+    a=a+2;
+    b=-2;
+    b=b+3;
+    a=a-3;
+    a-=1;
+    b+=1;
+    b-=1;
+    a+=1;
+    c=a+b;
+    console.log("final value of c:", c);
+</script>
+<center>
+<style>
+body{
+background-color: lightblue;
+}
+.register-box{
+border-start-start-radius: 50px;
+border-end-end-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+width: 300px;
+height: 400px; 
+padding: 20px;
+border: 2px solid red;
+background-color: lightpink;
+}
+li {
+display: inline;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="register1.html">register1</a></li>
+<li><a href="login.html">login</a></li>
+<li><a href="Contact1.html">Contact1</a></li>
+<li><a href="about.html">about</a></li>
+</ul>
+<div class="register-box">
+<h1>REGISTER FORM</h1>
+<form>
+<label for="username">Username:</lable><br>
+<input type="text" name="username" onkeydown="return /[a-zA-Z]/i.test(event.key)"><br>
+<label for="pwd">password:</label><br>
+<input type="password" id="pwd" name="pwd" required><br>
+<label for="email">enter your email:</label><br>
+<input type="email" id="email" name="email" required><br>
+<label for="location">address:</label><br>
+<input type="address"id="address" name="address" required><br><br>
+<input type="submit" value="Register">
+<a href="login.html">register1 here</a>
+</form>
+</div>
+</body>
+</center>
+</html> 

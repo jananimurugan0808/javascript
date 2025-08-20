@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        a=2;
+        b=1;
+        c=3;
+        d=a+2;
+        e=b+1;
+        f=c+1;
+        g=d+e+f;
+        a+=1;
+        c-=1;
+        h=a+c;
+        b+=1;
+        a=1;
+        c=2;
+        i=b+a+c;
+console.log("final value of g,h,i", g,h,i);
+    </script>
+<center>
+<style>
+body{
+background-color:lightblue;
+}
+.login-box{
+border-start-start-radius: 50px;
+border-end-end-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+width: 300px;
+height: 300px;
+padding: 20px;
+border: 2px solid red;
+background-color: lightpink;
+}
+li{
+display: inline;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="register1.html">register1</a></li>
+<li><a href="login.html">login</a></li>
+<li><a href="Contact1.html">Contact1</a></li>
+<li><a href="about.html">about</a></li>
+</ul>
+<div class="login-box">
+<h1> LOGIN FORM</h1>
+<form>
+<label for="fname">Username:</lable><br>
+<input type="text" name="username" onkeydown="return/[a-zA-Z]/i.test(event.key)"><br>
+<label for="pwd">password:</label><br>
+<input type="password" id="pwd" name="pwd"><br><br>
+<input type="submit" value="login">
+<a href="register1.html">login here</a>
+</form>
+</div>
+</body>
+</center>
+</html> 
