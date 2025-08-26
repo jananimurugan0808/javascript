@@ -1,2 +1,0 @@
-# javascript
-html programs
